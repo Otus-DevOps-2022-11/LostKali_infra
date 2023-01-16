@@ -1,7 +1,7 @@
 # LostKali_infra
 LostKali Infra repository
 
-# HW02
+# HW03
 
 Запуск VM в Yandex Cloud, управление правилами фаервола, настройка SSH подключения, настройка SSH подключения через Bastion Host, настройка VPN сервера и VPN-подключения.
 
@@ -25,7 +25,7 @@ Host someinternalhost
 bastion_IP = 62.84.115.113
 someinternalhost_IP = 10.128.0.21
 
-# HW03
+# HW04
 
 Практика управления ресурсамиyandex cloud через yc.
 
@@ -45,3 +45,11 @@ yc compute instance create \
   --ssh-key ~/.ssh/otus_devops.pub
 ```
 Формат `init.yaml` соответствует [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html)
+
+# HW05
+
+Подготовка базового образа VM при помощи Packer.
+
+- создан packer скрипт для создания базового образа
+- packer скрипт шаблонизирован с использованием пользовательских переменных
+- переменные прописаны в файле, в репозитории представлен пример этого файла
