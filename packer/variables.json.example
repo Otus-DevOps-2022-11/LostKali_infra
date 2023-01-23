@@ -1,5 +1,5 @@
 {
-    "yc_key_path": "variables.json.example",
+    "yc_key_path": "key.json",
     "yc_folder_id": "abc123",
     "src_img_family": "ubuntu-1604-lts"
 }
