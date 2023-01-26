@@ -1,0 +1,8 @@
+{
+   "id": "abcdefghij123456790",
+   "service_account_id": "abcdefghij1234567890",
+   "created_at": "2023-01-16T15:39:08.011143873Z",
+   "key_algorithm": "RSA_2048",
+   "public_key": "-----BEGIN PUBLIC KEY-----\nABCDE\n-----END PUBLIC KEY-----\n",
+   "private_key": "-----BEGIN PRIVATE KEY-----\nABCDE\n-----END PRIVATE KEY-----\n"
+}
